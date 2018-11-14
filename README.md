@@ -5,6 +5,7 @@ Menu:
 ![1](Screenshot_20181114-162343.jpg)
 
 Profile:
+
 ![2](Screenshot_20181114-162406.jpg)
 
 Menu (landscape mode):
@@ -14,5 +15,4 @@ Menu (landscape mode):
 Portrait (landscape mode):
 
 ![4](Screenshot_20181114-162401.jpg)
-
 
