@@ -20,21 +20,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String[] names = {"Arya", "Cersei", "Daenerys", "Jaime", "Jon", "Jorah",
                 "Margaery", "Melisandre", "Sansa", "Tyrion"};
-        String[] bio = {"Arya description", "Cersei description", "Daenerys description",
-                "Jaime description", "Jon description", "Jorah description", "Margaery description",
-                "Melisandre description", "Sansa description", "Tyrion description"};
-        int counter = 0;
+        String[] descriptions = {"Not today.", "Everyone who isn’t us is an enemy.", "I have way too many titles.",
+                "The things I do for love...", "I know nothing.", "No one can survive in this world without help.", "I want to be the queen.",
+                "The night is dark and full of terrors.", "Winter is coming.", "Where is the god of tits and wine?"};
+        int friend_number = 0;
         for (String name : names) {
             int id = getResources().getIdentifier(name.toLowerCase(), "drawable", getPackageName());
-            Friend friend = new Friend(name, bio[counter], id);
+            Friend friend = new Friend(name, descriptions[friend_number], id);
             friends.add(friend);
-            counter++;
+            friend_number++;
         }
 
         FriendsAdapter adapter = new FriendsAdapter(this, R.layout.grid_item, friends);
         GridView grid = findViewById(R.id.gridView);
-        grid.setAdapter(adapter);
         GridItemClickListener gridListener = new GridItemClickListener();
+
+        grid.setAdapter(adapter);
         grid.setOnItemClickListener(gridListener);
     }
 
