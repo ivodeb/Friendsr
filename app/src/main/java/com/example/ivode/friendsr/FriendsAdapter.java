@@ -29,7 +29,7 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
         ImageView image = convertView.findViewById(R.id.image);
         Friend cursor = friends.get(position);
         text.setText(cursor.getName());
-        image.setImageResource(cursor.getDrawableId());
+        image.setImageResource(cursor.getImageId());
 
         return convertView;
     }
