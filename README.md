@@ -1,18 +1,9 @@
-Friends rating app with state preservation and more features to come!
+FriendsR app by Ivo de Brouwer 11045841
 
-Menu:
+Extra features:
+- Gracefully implemented rotation of the device, adding a landscape variation and preserving data.
 
-![1](Screenshot_20181114-162343.jpg)
+Images:
 
-Profile:
-
-![2](Screenshot_20181114-162406.jpg)
-
-Menu (landscape mode):
-
-![3](Screenshot_20181114-162353.jpg)
-
-Portrait (landscape mode):
-
-![4](Screenshot_20181114-162401.jpg)
-
+<img src="Friendsr1.jpg" width="200">
+<img src="Friendsr2.jpg" width="200">
