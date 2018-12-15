@@ -8,7 +8,8 @@
     tools:context=".ProfileActivity">
 
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,10 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="0"
+        android:fontFamily="@font/journal"
+        android:textSize="48sp"
         android:gravity="center"
         android:paddingTop="6dp"
         android:paddingBottom="6dp"
-        android:text="TextView" />
+        android:text="" />
 
     <TextView
         android:id="@+id/bio"
@@ -42,6 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:fontFamily="@font/journal"
+        android:textSize="30sp"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="" />
 </LinearLayout>

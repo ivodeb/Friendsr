@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // make friends with given names and descriptions
         String[] names = {"Arya", "Cersei", "Daenerys", "Jaime", "Jon", "Jorah",
                 "Margaery", "Melisandre", "Sansa", "Tyrion"};
         String[] descriptions = {"Not today.", "Everyone who isn’t us is an enemy.", "I have way too many titles.",

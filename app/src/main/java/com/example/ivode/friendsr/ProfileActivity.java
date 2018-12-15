@@ -15,9 +15,11 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        // receive intent
         Intent intent = getIntent();
         Friend retrievedFriend = (Friend) intent.getSerializableExtra("clicked_friend");
 
+        // create rating bar
         RatingBar ratingBar = findViewById(R.id.ratingBar);
         RatingBarListener ratingBarListener = new RatingBarListener();
         ratingBar.setOnRatingBarChangeListener(ratingBarListener);
