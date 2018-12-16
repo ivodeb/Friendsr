@@ -1,9 +1,9 @@
-FriendsR app by Ivo de Brouwer 11045841
+## FriendsR app by Ivo de Brouwer 11045841
 
 Extra features:
 - Gracefully implemented rotation of the device, adding a landscape variation and preserving data.
 
-Images:
+## Screenshots
 
 Portrait                   |  Landscape                    | Friend profile
 :-------------------------:|:-----------------------------:|:-------------------------:
