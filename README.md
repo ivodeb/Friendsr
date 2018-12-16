@@ -5,7 +5,7 @@ Extra features:
 
 Images:
 
-Portrait                   |  Landscape                | Friend profile
-:-------------------------:|:-------------------------:|:-------------------------:
-![](Friendsr_portrait.jpg)  |  ![](Friendsr_landscape.jpg)
-<img src="Friendsr2.jpg" width="200">
+Portrait                   |  Landscape                    | Friend profile
+:-------------------------:|:-----------------------------:|:-------------------------:
+![](Friendsr_portrait.jpg)  |  ![](Friendsr_landscape.jpg) | ![](Friendsr2.jpg)
+
