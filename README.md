@@ -5,5 +5,7 @@ Extra features:
 
 Images:
 
-<img src="Friendsr1.jpg" width="200">
+Portrait                   |  Landscape
+:-------------------------:|:-------------------------:
+![](Friendsr_portrait.jpg)  |  ![](Friendsr_landscape.jpg)
 <img src="Friendsr2.jpg" width="200">
