@@ -5,7 +5,7 @@ Extra features:
 
 ## Screenshots
 
-Portrait                   |  Landscape                    | Friend profile
-:-------------------------:|:-----------------------------:|:-------------------------:
-![](Friendsr_portrait.jpg)  |  ![](Friendsr_landscape.jpg) | ![](Friendsr2.jpg)
+Portrait                        |  Landscape                       | Friend profile
+:------------------------------:|:--------------------------------:|:-------------------------:
+![](doc/Friendsr_portrait.jpg)  |  ![](doc/Friendsr_landscape.jpg) | ![](doc/Friendsr.jpg)
 
